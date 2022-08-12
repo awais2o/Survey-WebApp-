@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    style
+        include ../static/style.css
+    
+</head>
+
+<body>
+<div id="container">
+    <h1>Survey</h1>
+    <div id="FormBox">
+        <form action="/" method="post">
+            <input type="text" name="FirstName" placeholder="First Name">
+            <input type="text" name="SirName" placeholder="SirName">
+            <input type="number" name="Age" placeholder="Age">
+            <input type="date" name="Date" placeholder="Date Of Birth">
+            <input type="text" name="About" placeholder="Tell us  About  Yourself" id="about">
+            <label for="Degree"></label>
+            <select id="degree" name="Degree">
+                <option value="SE">SE</option>
+                <option value="CS">CS</option>
+                <option value="IT">IT</option>
+                <option value="BBA">BBA</option>
+            </select>
+            <input type="submit" value="Go" id="Submit">
+        </form>
+    </div>
+</div>
+</body>
+
+</html>
